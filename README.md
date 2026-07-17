@@ -1,39 +1,49 @@
-# 🚀 Belajar Front-End: HTML dan 2 Kawannya (CSS & JS)
+# 🚀 Kumpulan Proyek Belajar (YouTube Tutorials)
 
-Selamat datang di repositori dokumentasi belajar *front-end web development* saya! Repositori ini adalah saksi bisu perjalanan saya dalam menaklukkan tiga pilar utama pemprograman web: **HTML5**, **CSS3**, dan **JavaScript (Vanilla JS)**.
-
-Di sini, saya mengumpulkan semua kode latihan, eksperimen layout, hingga studi kasus membuat aplikasi web interaktif sederhana.
+Repositori ini berisi kumpulan mini-proyek yang saya bangun untuk mengasah keterampilan pemrograman saya. Semua proyek di sini dibuat berdasarkan tutorial dari berbagai kanal YouTube berkualitas, dengan beberapa modifikasi atau improvisasi mandiri.
 
 ---
 
-## 🛠️ Tiga Serangkai yang Saya Pelajari
+## 📂 Daftar Proyek
 
-Dalam projek-projek di repositori ini, saya membagi peran masing-masing teknologi seperti ini:
-1. **HTML (Rangka):** Membuat struktur, tombol, input, dan pondasi utama halaman web.
-2. **CSS (Baju/Kosmetik):** Menghias tampilan agar estetik, rapi (menggunakan Grid/Flexbox), modern, dan responsif saat dibuka di HP.
-3. **JavaScript (Otak):** Memberikan logika, interaksi, keamanan validasi data, dan membuat halaman web menjadi hidup.
+Berikut adalah daftar proyek yang ada di dalam repositori ini beserta tautan ke video tutorial aslinya:
 
----
+### 1. [Nama Proyek Pertama, misal: Aplikasi Catatan Web]
+*   **Teknologi:** HTML, CSS, JavaScript Vanilla
+*   **Sumber Tutorial:** [Nama Channel YouTube](link-ke-video-youtube)
+*   **Apa yang Dipelajari:** Manipulasi DOM, LocalStorage, dan CSS Grid.
+*   **Folder Proyek:** `/aplikasi-catatan`
 
-## 📁 Isi Repositori & Projek Utama
+### 2. [Nama Proyek Kedua, misal: Klone Netflix]
+*   **Teknologi:** ReactJS, Tailwind CSS, Firebase
+*   **Sumber Tutorial:** [Nama Channel YouTube](link-ke-video-youtube)
+*   **Apa yang Dipelajari:** Integrasi API TMDB, Autentikasi Firebase, dan Responsive Design.
+*   **Folder Proyek:** `/netflix-clone`
 
-Berikut adalah projek unggulan yang saya buat selama proses belajar:
-
-### 🧮 1. Web Calculator (Vanilla JS)
-Sebuah aplikasi kalkulator modern dengan desain tombol bulat minimalis bergaya iOS/Android.
-*   **Fitur Spesial:** Menggunakan tata letak *CSS Grid* yang presisi (`aspect-ratio: 1`) dan dilengkapi keamanan **Regex** di JavaScript untuk mencegah celah *error* manipulasi data string.
-*   **Lokasi Folder:** `/calculator`
-
-### 📂 2. Showcase Navigator (Halaman Utama)
-Halaman indeks dinamis di *root* repositori yang otomatis membaca daftar folder latihan menggunakan **GitHub API**. Jadi, setiap kali saya menambah folder tugas baru, halamannya akan otomatis ter-update!
-*   **Lokasi Folder:** `/index.html` (di luar)
+*(Tambahkan proyek lainnya di bawah ini dengan format yang sama)*
 
 ---
 
-## 🚀 Cara Menjalankan Projek Secara Lokal
+## 🛠️ Cara Menjalankan Proyek
 
-Jika kamu ingin mencoba atau melihat kode ini berjalan di komputermu sendiri:
+Setiap proyek berada di dalam foldernya masing-masing. Untuk mencobanya secara lokal:
 
-1. **Clone repositori ini:**
+1. Clone repositori ini:
    ```bash
-   git clone [https://github.com/username-kamu/nama-repo-kamu.git](https://github.com/username-kamu/nama-repo-kamu.git)
+   git clone https://github.com
+   ```
+2. Masuk ke folder proyek spesifik yang ingin Anda jalankan:
+   ```bash
+   cd nama-repo/nama-folder-proyek
+   ```
+3. Baca file `README.md` di dalam folder tersebut (jika ada) atau jalankan perintah instalasi standar (misal: `npm install` lalu `npm start`).
+
+---
+
+## ✍️ Catatan & Improvisasi
+Selain mengikuti tutorial, saya juga menambahkan beberapa fitur sendiri untuk latihan tambahan:
+- [ ] Menambahkan fitur *Dark Mode* pada proyek [Nama Proyek].
+- [ ] Memperbaiki *bug* responsivitas pada proyek [Nama Proyek].
+
+## 📝 Lisensi
+Kode dalam repositori ini ditujukan untuk pembelajaran. Hak cipta materi dan desain asli tetap milik para kreator konten YouTube yang bersangkutan.
