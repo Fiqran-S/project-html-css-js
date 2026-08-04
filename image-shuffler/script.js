@@ -62,12 +62,12 @@ function displayImages(images) {
 		const card = document.createElement("div");
 		card.className = "image-card";
 		
-		const imageUrl = `https://picsum.photos/id/${images.id}/600/400`;
+		const imageUrl = `https://picsum.photos/id/${image.id}/600/400`;
 		
 		card.innerHTML = `
-			<img src="${imageUrl}" alt="Photo by ${images.author}" />
+			<img src="${imageUrl}" alt="Photo by ${image.author}" />
 			<div class ="overlay">
-				<a href="${imageUrl}" target="_blank">Photo by ${images.author}</a>
+				<a href="${imageUrl}" target="_blank">Photo by ${image.author}</a>
 			</div>
 		`
 		
